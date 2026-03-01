@@ -41,8 +41,7 @@ function copyPassword() {
     if (passwordBox.value === "") {
         alert("Generate a password first!");
         return;
-    } else
-    {
+    } else {
         passwordBox.select();
         document.execCommand("copy")
         alert("Password copied!")
