@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #1d4350, #a43931);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+main{
+    background: rgba(255,255,255,0.08);
+    padding: 40px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.3;
+}
+
+h1 span{
+    color: #ffd369;
+    border-bottom: 3px solid #ffd369;
+}
+
+.password{
+    margin: 40px 0 25px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+.password input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 100%;
+    color: #333;
+}
+
+.password img{
+    width: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.eye{
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #ffd369;
+    color: #333;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    background: #ffc107;;
+}
+
+button img{
+    width: 18px;
+}
