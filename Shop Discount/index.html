@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop Discount Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Shop Discount Calculator</h1>
+
+<div class="discount-table">
+<p><strong>Discount Rules</strong></p>
+<p>₹0 – ₹5000 → No Discount</p>
+<p>₹5001 – ₹7000 → 5% Discount</p>
+<p>₹7001 – ₹9000 → 10% Discount</p>
+<p>Above ₹9000 → 20% Discount</p>
+</div>
+
+<input type="number" id="amount" placeholder="Enter Cart Value">
+
+<p id="validation"></p>
+
+<button id="calculateBtn">Calculate Final Price</button>
+
+<div class="loader" id="loader"></div>
+
+<div id="resultBox">
+<p id="result"></p>
+<p id="saved"></p>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
