@@ -8,13 +8,14 @@ const emojis = [
 
 button.addEventListener("click", () => {
 
-emojiArea.innerHTML = "";
+emojiArea.innerHTML = "";   // remove previous emojis
 
 for(let i = 0; i < 120; i++){
 
+const span = document.createElement("span");
+
 const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
 
-const span = document.createElement("span");
 span.textContent = randomEmoji;
 
 emojiArea.appendChild(span);
