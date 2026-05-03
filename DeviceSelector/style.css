@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.container{
+    background: white;
+    padding: 40px 50px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    width: 320px;
+}
+
+h1{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+
+select{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #667eea;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #f8fafc;
+}
+
+/* hover effect */
+select:hover{
+    border-color: #764ba2;
+}
+
+/* focus glow effect */
+select:focus{
+    border-color: #764ba2;
+    box-shadow: 0 0 8px rgba(118,75,162,0.4);
+}
+
+/* smooth heading animation */
+h1.change{
+    transform: scale(1.05);
+    color: #764ba2;
+}
