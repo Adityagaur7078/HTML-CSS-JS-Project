@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI", sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding:40px;
+}
+
+/* form container */
+#main{
+    width:100%;
+    max-width:800px;
+}
+
+/* form styling */
+form{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    margin-bottom:30px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+form input{
+    padding:10px;
+    border-radius:6px;
+    border:1px solid #ccc;
+    font-size:14px;
+}
+
+form input:focus{
+    border-color:#667eea;
+    outline:none;
+}
+
+input[type="submit"]{
+    background:#667eea;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+input[type="submit"]:hover{
+    background:#5a67d8;
+}
+
+/* card container */
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+    text-align:center;
+    width:250px;
+    display:inline-block;
+    margin:10px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* profile image */
+.profile-img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:10px;
+    border:3px solid #667eea;
+}
+
+/* name */
+.card h2{
+    margin-bottom:5px;
+    color:#333;
+}
+
+/* role */
+.role{
+    color:#666;
+    font-size:14px;
+    margin-bottom:10px;
+}
+
+/* info */
+.info p{
+    font-size:13px;
+    color:#444;
+    margin:4px 0;
+}
